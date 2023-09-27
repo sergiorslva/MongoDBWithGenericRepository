@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "RvudZZpO7obDsbPiAT8kvWR1HVZC4UD6Vc0Kl7NyNS2M4Plm7DBHREaHSjMCcs5FNumYjTUYPLCmZGrq+as0GA==",
+  "success": true,
+  "projectFilePath": "C:\\Tests\\MongoDBWithGenericRepository\\MongoDBRepository.Application\\MongoDBRepository.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\srsilva\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

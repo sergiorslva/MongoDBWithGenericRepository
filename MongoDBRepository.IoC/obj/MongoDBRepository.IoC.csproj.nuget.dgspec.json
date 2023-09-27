@@ -1,0 +1,276 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Tests\\MongoDBWithGenericRepository\\MongoDBRepository.IoC\\MongoDBRepository.IoC.csproj": {}
+  },
+  "projects": {
+    "C:\\Tests\\MongoDBWithGenericRepository\\MongoDBRepository.Application\\MongoDBRepository.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Tests\\MongoDBWithGenericRepository\\MongoDBRepository.Application\\MongoDBRepository.Application.csproj",
+        "projectName": "MongoDBRepository.Application",
+        "projectPath": "C:\\Tests\\MongoDBWithGenericRepository\\MongoDBRepository.Application\\MongoDBRepository.Application.csproj",
+        "packagesPath": "C:\\Users\\srsilva\\.nuget\\packages\\",
+        "outputPath": "C:\\Tests\\MongoDBWithGenericRepository\\MongoDBRepository.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\srsilva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Tests\\MongoDBWithGenericRepository\\MongoDBRepository.Domain\\MongoDBRepository.Domain.csproj": {
+                "projectPath": "C:\\Tests\\MongoDBWithGenericRepository\\MongoDBRepository.Domain\\MongoDBRepository.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Tests\\MongoDBWithGenericRepository\\MongoDBRepository.Domain\\MongoDBRepository.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Tests\\MongoDBWithGenericRepository\\MongoDBRepository.Domain\\MongoDBRepository.Domain.csproj",
+        "projectName": "MongoDBRepository.Domain",
+        "projectPath": "C:\\Tests\\MongoDBWithGenericRepository\\MongoDBRepository.Domain\\MongoDBRepository.Domain.csproj",
+        "packagesPath": "C:\\Users\\srsilva\\.nuget\\packages\\",
+        "outputPath": "C:\\Tests\\MongoDBWithGenericRepository\\MongoDBRepository.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\srsilva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Tests\\MongoDBWithGenericRepository\\MongoDBRepository.IoC\\MongoDBRepository.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Tests\\MongoDBWithGenericRepository\\MongoDBRepository.IoC\\MongoDBRepository.IoC.csproj",
+        "projectName": "MongoDBRepository.IoC",
+        "projectPath": "C:\\Tests\\MongoDBWithGenericRepository\\MongoDBRepository.IoC\\MongoDBRepository.IoC.csproj",
+        "packagesPath": "C:\\Users\\srsilva\\.nuget\\packages\\",
+        "outputPath": "C:\\Tests\\MongoDBWithGenericRepository\\MongoDBRepository.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\srsilva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Tests\\MongoDBWithGenericRepository\\MongoDBRepository.Application\\MongoDBRepository.Application.csproj": {
+                "projectPath": "C:\\Tests\\MongoDBWithGenericRepository\\MongoDBRepository.Application\\MongoDBRepository.Application.csproj"
+              },
+              "C:\\Tests\\MongoDBWithGenericRepository\\MongoDBRepository.Domain\\MongoDBRepository.Domain.csproj": {
+                "projectPath": "C:\\Tests\\MongoDBWithGenericRepository\\MongoDBRepository.Domain\\MongoDBRepository.Domain.csproj"
+              },
+              "C:\\Tests\\MongoDBWithGenericRepository\\MongoDBRepository.Repository\\MongoDBRepository.Repository.csproj": {
+                "projectPath": "C:\\Tests\\MongoDBWithGenericRepository\\MongoDBRepository.Repository\\MongoDBRepository.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Tests\\MongoDBWithGenericRepository\\MongoDBRepository.Repository\\MongoDBRepository.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Tests\\MongoDBWithGenericRepository\\MongoDBRepository.Repository\\MongoDBRepository.Repository.csproj",
+        "projectName": "MongoDBRepository.Repository",
+        "projectPath": "C:\\Tests\\MongoDBWithGenericRepository\\MongoDBRepository.Repository\\MongoDBRepository.Repository.csproj",
+        "packagesPath": "C:\\Users\\srsilva\\.nuget\\packages\\",
+        "outputPath": "C:\\Tests\\MongoDBWithGenericRepository\\MongoDBRepository.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\srsilva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Tests\\MongoDBWithGenericRepository\\MongoDBRepository.Domain\\MongoDBRepository.Domain.csproj": {
+                "projectPath": "C:\\Tests\\MongoDBWithGenericRepository\\MongoDBRepository.Domain\\MongoDBRepository.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.21.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
